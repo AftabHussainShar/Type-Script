@@ -17,7 +17,7 @@ Feel free to explore the exercises and solutions, and use them as a valuable res
 
 Here's the status of completed exercises:
 
-- [x] 01-Variables
+- [] 01-Variables
 - [x] 02-Data-Types
 - [x] 03-Type-Inference
 - [x] 04-Variables-Advance
