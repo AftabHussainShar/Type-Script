@@ -1,4 +1,4 @@
-# Points We use in this 
+# Points We use in this
 
 ## Step: 1  Add "types": "module" in package.json
 
