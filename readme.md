@@ -17,14 +17,14 @@ Feel free to explore the exercises and solutions, and use them as a valuable res
 
 Here's the status of completed exercises:
 
-- [] 01-Variables
-- [x] 02-Data-Types
-- [x] 03-Type-Inference
-- [x] 04-Variables-Advance
-- [x] 05-Errors
-- [x] 06-Modules
-- [x] 07-Operators
-- [x] 08-Combining-Operators
+- [x] 01-Variables &#x1F49A;
+- [x] 02-Data-Types &#x1F49A;
+- [x] 03-Type-Inference &#x1F49A;
+- [x] 04-Variables-Advance &#x1F49A;
+- [x] 05-Errors &#x1F49A;
+- [x] 06-Modules &#x1F49A;
+- [x] 07-Operators &#x1F49A;
+- [x] 08-Combining-Operators &#x1F49A;
 
 ## 📌 How to Contribute
 
