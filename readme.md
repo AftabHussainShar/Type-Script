@@ -25,6 +25,7 @@ Here's the status of completed exercises:
 - [x] 06-Modules &#x1F49A;
 - [x] 07-Operators &#x1F49A;
 - [x] 08-Combining-Operators &#x1F49A;
+- [x] 09-Mini-Calculator &#x1F49A;
 
 ## 📌 How to Contribute
 
