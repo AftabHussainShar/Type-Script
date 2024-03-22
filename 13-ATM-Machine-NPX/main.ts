@@ -10,7 +10,7 @@ const all_user: { [key: string]: string } = {
     hassan: '1234',
 };
 
-// Initialize balance
+
 const all_balance: { [key: string]: number } = {
     aftab: 1000,
     ali: 1000,
