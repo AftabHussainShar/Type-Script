@@ -2,7 +2,7 @@
 
 import inquirer from 'inquirer';
 
-// Initialize user data with TypeScript type annotations
+// Initialize user
 const all_user: { [key: string]: string } = {
     aftab: '1234',
     ali: '1234',
