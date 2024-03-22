@@ -18,7 +18,7 @@ const all_balance: { [key: string]: number } = {
     hassan: 1000,
 };
 
-// Function to perform actions after login
+// after login
 function performActions(username: string): void {
     inquirer.prompt([
         {
