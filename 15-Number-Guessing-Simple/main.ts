@@ -22,6 +22,7 @@ if (answer.number ===number2 ) {
 
 } else {
     console.log("You guessed wrong")
+    // print number
     console.log("The number was " + number2)
 
 }
