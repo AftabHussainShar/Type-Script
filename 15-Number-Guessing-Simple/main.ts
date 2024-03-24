@@ -17,6 +17,7 @@ let number2: number = Math.floor(Math.random() * 10) + 1
 // if condition
 if (answer.number ===number2 ) {
     console.log("You guessed right")
+    // print number
     console.log("The number was " + number2)
 
 } else {
