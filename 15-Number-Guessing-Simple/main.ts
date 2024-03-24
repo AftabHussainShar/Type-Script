@@ -2,6 +2,7 @@
 // import inquirer
 import inquirer from 'inquirer';
 
+// take random number and match it with user input
 const answer = await inquirer.prompt([
     {
         name: "number",
