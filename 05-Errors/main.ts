@@ -4,7 +4,7 @@
 
 // let username = "Aftab"
 // console.log(username    //here it will give error beacause of syntax error i did not use semicolon
-
+// Erors 
 // 2. Type Error
 
 // let username :string = "Aftab"
