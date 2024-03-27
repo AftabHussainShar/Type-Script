@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import inquirer from "inquirer"
-
+// take two inputs
 const answer = await inquirer.prompt([
     {message: "Enter first number", type: "number", name: "firstname"},
     {message: "Enter Second number", type: "number", name: "secondname"},
