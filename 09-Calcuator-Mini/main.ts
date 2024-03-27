@@ -1,5 +1,6 @@
 import inquirer from "inquirer"
 
+// take inputs 
 const answer = await inquirer.prompt([
     {message: "Enter first number", type: "number", name: "firstname"},
     {message: "Enter Second number", type: "number", name: "secondname"},
@@ -12,7 +13,6 @@ const answer = await inquirer.prompt([
 ]);
 
 // conditional statment
-
 if (answer.operator === "Addition") {
     console.log(answer.firstname + answer.secondname)
 } else if (answer.operator === "Subtraction") {
