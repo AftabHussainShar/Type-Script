@@ -1,5 +1,6 @@
 import inquirer from "inquirer"
 
+// Calculater
 // take inputs 
 const answer = await inquirer.prompt([
     {message: "Enter first number", type: "number", name: "firstname"},
