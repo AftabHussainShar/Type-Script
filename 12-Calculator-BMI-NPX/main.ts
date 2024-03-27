@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// creating bmi calculator with required parameters
 
+// creating bmi calculator
 import inquirer from "inquirer";
 function calculateBmi(height: number, weight: number): string {
     const bmi = weight / (height * height);
