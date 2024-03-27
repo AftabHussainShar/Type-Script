@@ -9,7 +9,8 @@ const answer = await inquirer.prompt([
         name: "number"
     }
 ]);
-// take random number and match it with user input
+
+// take random number 
 
 let number2: number = Math.floor(Math.random() * 10) + 1
 if (answer.number ===number2 ) {
