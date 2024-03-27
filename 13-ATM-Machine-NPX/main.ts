@@ -81,7 +81,7 @@ function performActions(username: string): void {
     });
 }
 
-// Login Prompt
+// Login Prompt For User
 inquirer.prompt([
     {
         name: 'username',
