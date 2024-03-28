@@ -1,4 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var a = 10;
+let a = 10;
+// here is a variable
 exports.default = a;

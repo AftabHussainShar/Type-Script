@@ -1,5 +1,10 @@
-// creating bmi calculator with required parameters
-import inquirer from "inquirer";
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+// creating bmi calculator 
+const inquirer_1 = __importDefault(require("inquirer"));
 function calculateBmi(height, weight) {
     const bmi = weight / (height * height);
     if (bmi < 18.5) {
@@ -16,7 +21,7 @@ function calculateBmi(height, weight) {
     }
 }
 // take two input using inquirer
-inquirer
+inquirer_1.default
     .prompt([
     {
         type: "number",

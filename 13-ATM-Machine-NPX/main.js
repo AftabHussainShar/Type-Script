@@ -1,22 +1,26 @@
 #!/usr/bin/env node
-import inquirer from 'inquirer';
-// Initialize user data with TypeScript type annotations
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const inquirer_1 = __importDefault(require("inquirer"));
+// Initialize user
 const all_user = {
     aftab: '1234',
     ali: '1234',
     zain: '1234',
     hassan: '1234',
 };
-// Initialize balance
 const all_balance = {
     aftab: 1000,
     ali: 1000,
     zain: 1000,
     hassan: 1000,
 };
-// Function to perform actions after login
+// after login
 function performActions(username) {
-    inquirer.prompt([
+    inquirer_1.default.prompt([
         {
             name: 'action',
             type: 'list',
@@ -30,7 +34,7 @@ function performActions(username) {
                 performActions(username); // Recall the function to allow for more actions
                 break;
             case 'Deposit':
-                inquirer.prompt([
+                inquirer_1.default.prompt([
                     {
                         name: 'amount',
                         type: 'number',
@@ -49,7 +53,7 @@ function performActions(username) {
                 });
                 break;
             case 'Withdraw':
-                inquirer.prompt([
+                inquirer_1.default.prompt([
                     {
                         name: 'amount',
                         type: 'number',
@@ -76,8 +80,8 @@ function performActions(username) {
         }
     });
 }
-// Login Prompt
-inquirer.prompt([
+// Login Prompt For User
+inquirer_1.default.prompt([
     {
         name: 'username',
         type: 'input',
@@ -91,7 +95,7 @@ inquirer.prompt([
 ]).then((answers) => {
     if (all_user[answers.username] && answers.password === all_user[answers.username]) {
         console.log('Login successful');
-        performActions(answers.username); // Proceed with action prompts after login
+        performActions(answers.username);
     }
     else {
         console.log('Login failed: Incorrect username or password.');
