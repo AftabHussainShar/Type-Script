@@ -1,40 +1,65 @@
-//question
-const questions = [
+// quiz game ask three question relted to cs 
+import inquirer from "inquirer";
+// ask mcqs computer reltaed 
+const answer = await inquirer.prompt([
     {
-        type: "input",
-        name: "name",
-        message: "Enter your name"
-    },
-    {
-        type: "input",
-        name: "age",
-        message: "Enter your age"
-    },
-    {
-        type: "input",
-        name: "city",
-        message: "Enter your city"
-    }
-];
-// now ask Computer related 3 mcqs question 
-const computerQuestions = [
-    {
+        name: "mcq1",
         type: "list",
-        name: "os",
         message: "What is your preferred operating system?",
         choices: ["Windows", "Linux", "Mac OS"]
     },
     {
+        name: "mcq2",
         type: "list",
-        name: "browser",
-        message: "What is your preferred web browser?",
+        message: "What is your preferred browser?",
         choices: ["Chrome", "Firefox", "Safari"]
     },
     {
+        name: "mcq3",
         type: "list",
-        name: "laptop",
-        message: "What is your preferred laptop brand?",
-        choices: ["Dell", "HP", "MacBook"]
+        message: "What is your preferred programming language?",
+        choices: ["C", "C++", "Java"]
+    },
+    {
+        name: "mcq4",
+        type: "list",
+        message: "What is your preferred editor?",
+        choices: ["VS Code", "Sublime Text", "Atom"]
+    },
+    {
+        name: "mcq5",
+        type: "list",
+        message: "What is your preferred IDE?",
+        choices: ["VS Code", "Sublime Text", "Atom"]
+    },
+    {
+        name: "mcq6",
+        type: "list",
+        message: "What is your preferred IDE?",
+        choices: ["VS Code", "Sublime Text", "Atom"]
+    },
+    {
+        name: "mcq7",
+        type: "list",
+        message: "What is your preferred IDE?",
+        choices: ["VS Code", "Sublime Text", "Atom"]
+    },
+    {
+        name: "mcq8",
+        type: "list",
+        message: "What is your preferred IDE?",
+        choices: ["VS Code", "Sublime Text", "Atom"]
+    },
+    {
+        name: "mcq9",
+        type: "list",
+        message: "What is your preferred IDE?",
+        choices: ["VS Code", "Sublime Text", "Atom"]
+    },
+    {
+        name: "mcq10",
+        type: "list",
+        message: "What is your preferred IDE?",
+        choices: ["VS Code", "Sublime Text", "Atom"]
     }
-];
-export {};
+]);
