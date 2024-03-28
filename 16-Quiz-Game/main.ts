@@ -67,3 +67,6 @@ const answer = await inquirer.prompt([
         choices: ["VS Code", "Sublime Text", "Atom"]
     }
 ]);
+
+
+// results score out of 10
