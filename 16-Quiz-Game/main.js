@@ -63,3 +63,36 @@ const answer = await inquirer.prompt([
         choices: ["VS Code", "Sublime Text", "Atom"]
     }
 ]);
+// results score out of 10
+let score = 0;
+if (answer.mcq1 === "Windows") {
+    score = score + 1;
+}
+if (answer.mcq2 === "Chrome") {
+    score = score + 1;
+}
+if (answer.mcq3 === "C") {
+    score = score + 1;
+}
+if (answer.mcq4 === "VS Code") {
+    score = score + 1;
+}
+if (answer.mcq5 === "VS Code") {
+    score = score + 1;
+}
+if (answer.mcq6 === "VS Code") {
+    score = score + 1;
+}
+if (answer.mcq7 === "VS Code") {
+    score = score + 1;
+}
+if (answer.mcq8 === "VS Code") {
+    score = score + 1;
+}
+if (answer.mcq9 === "VS Code") {
+    score = score + 1;
+}
+if (answer.mcq10 === "VS Code") {
+    score = score + 1;
+}
+console.log("Your score is " + score);
