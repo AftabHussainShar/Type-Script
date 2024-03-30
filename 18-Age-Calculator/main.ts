@@ -2,7 +2,7 @@
 import inquirer from "inquirer"
 
 // take date of birth
-const answer = await inquirer.prompt([
+const answer =  inquirer.prompt([
     {message: "Enter your date of birth", type: "date", name: "dob"}
 ])
 
