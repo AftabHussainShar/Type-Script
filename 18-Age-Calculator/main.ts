@@ -8,4 +8,5 @@ const answer = await inquirer.prompt([
 
 // calculate age
 const age = new Date().getFullYear() - new Date(answer.dob).getFullYear()
-console.log(age)
+console.log("Your age is " + age)
+
