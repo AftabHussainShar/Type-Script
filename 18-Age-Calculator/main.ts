@@ -5,3 +5,7 @@ import inquirer from "inquirer"
 const answer = await inquirer.prompt([
     {message: "Enter your date of birth", type: "date", name: "dob"}
 ])
+
+// calculate age
+const age = new Date().getFullYear() - new Date(answer.dob).getFullYear()
+console.log(age)
