@@ -18,6 +18,7 @@ function calculateBmi(height: number, weight: number): string {
 // take two input using inquirer
 inquirer
     .prompt([
+        // take two input using inquirer
         {
             type: "number",
             name: "height",
