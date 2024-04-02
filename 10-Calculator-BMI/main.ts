@@ -34,5 +34,6 @@ inquirer
     .then((answers) => {
         const { height, weight } = answers;
         const bmi = calculateBmi(height, weight);
+        // print bmi
         console.log(`Your BMI is: ${bmi}`);
     })
