@@ -1,10 +1,5 @@
 #!/usr/bin/env node
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const inquirer_1 = __importDefault(require("inquirer"));
+import inquirer from 'inquirer';
 // Initialize user
 const all_user = {
     aftab: '1234',
@@ -20,7 +15,7 @@ const all_balance = {
 };
 // after login
 function performActions(username) {
-    inquirer_1.default.prompt([
+    inquirer.prompt([
         {
             name: 'action',
             type: 'list',
@@ -34,7 +29,7 @@ function performActions(username) {
                 performActions(username); // Recall the function to allow for more actions
                 break;
             case 'Deposit':
-                inquirer_1.default.prompt([
+                inquirer.prompt([
                     {
                         name: 'amount',
                         type: 'number',
@@ -53,7 +48,7 @@ function performActions(username) {
                 });
                 break;
             case 'Withdraw':
-                inquirer_1.default.prompt([
+                inquirer.prompt([
                     {
                         name: 'amount',
                         type: 'number',
@@ -81,7 +76,7 @@ function performActions(username) {
     });
 }
 // Login Prompt For User
-inquirer_1.default.prompt([
+inquirer.prompt([
     {
         name: 'username',
         type: 'input',
