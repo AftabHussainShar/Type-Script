@@ -3,6 +3,7 @@
 import inquirer from "inquirer";
 function calculateBmi(height: number, weight: number): string {
     const bmi = weight / (height * height);
+    // condition of underweight
     if (bmi < 18.5) {
         return "Underweight";
     } else if (bmi < 25) {
