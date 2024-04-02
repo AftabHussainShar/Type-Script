@@ -20,6 +20,7 @@ if (answer.operator === "Addition") {
 } else if (answer.operator === "Subtraction") {
     console.log(answer.firstname - answer.secondname)
 } else if (answer.operator === "Multiplication") {
+    // console.log(answer.firstname * answer.secondname)
     console.log(answer.firstname * answer.secondname)
 } else if (answer.operator === "Division") {
     // console.log(answer.firstname / answer.secondname)
