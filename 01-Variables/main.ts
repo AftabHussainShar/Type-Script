@@ -19,4 +19,4 @@ let userName : string = "Aftab"
 console.log(userName)
 
 // here i can only use string
-// userName = 1    // its giving error
+// userName = 1    // its giving 
