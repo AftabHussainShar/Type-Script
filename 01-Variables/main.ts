@@ -13,7 +13,7 @@ console.log("My favorite color is " + fav_Color)
 // 4: kebab-case
 // only before $ and _ can be used
 
-
+// 1:
 // strong typing
 let userName : string = "Aftab"
 console.log(userName)
