@@ -2,11 +2,10 @@
 let fav_Color = "blue"
 console.log("My favorite color is " + fav_Color)
 
-//change value of variable
+//change value of variables
 fav_Color = "green"
 console.log("My favorite color is " + fav_Color)
-
-
+// #all cases 
 //case sensitive
 // 1: camelCase
 // 2: PascalCase
