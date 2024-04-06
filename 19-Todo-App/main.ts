@@ -43,6 +43,7 @@ function promptUser() {
     ]).then((answers: { action: string }) => {
         switch (answers.action) {
             case "Add Todo":
+                // Add code to add todo
                 addTodo();
                 break;
             case "View Todos":
