@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+// Welcome message 
 console.log("Welcome to Todo App");
 import inquirer from "inquirer";
-const todoList = []; // Define todoList as an array of strings
+// Define todoList as an array of strings
+const todoList = [];
 function addTodo() {
     inquirer.prompt([
         {
@@ -38,12 +41,15 @@ function promptUser() {
     ]).then((answers) => {
         switch (answers.action) {
             case "Add Todo":
+                // Add code to add todo
                 addTodo();
                 break;
             case "View Todos":
+                // Add code to display todos
                 displayTodos();
                 break;
             case "Exit":
+                // Add code to exit
                 console.log("Exiting Todo App. Goodbye!");
                 break;
         }
