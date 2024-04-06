@@ -1,3 +1,4 @@
+// Welcome message 
 console.log("Welcome to Todo App");
 
 import inquirer from "inquirer";
