@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Welcome message 
 console.log("Welcome to Todo App");
 
