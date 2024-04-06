@@ -2,7 +2,8 @@ console.log("Welcome to Todo App");
 
 import inquirer from "inquirer";
 
-const todoList: string[] = []; // Define todoList as an array of strings
+// Define todoList as an array of strings
+const todoList: string[] = []; 
 
 function addTodo() {
     inquirer.prompt([
