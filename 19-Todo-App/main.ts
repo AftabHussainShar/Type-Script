@@ -47,6 +47,7 @@ function promptUser() {
                 addTodo();
                 break;
             case "View Todos":
+                // Add code to display todos
                 displayTodos();
                 break;
             case "Exit":
