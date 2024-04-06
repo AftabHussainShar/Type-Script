@@ -51,6 +51,7 @@ function promptUser() {
                 displayTodos();
                 break;
             case "Exit":
+                // Add code to exit
                 console.log("Exiting Todo App. Goodbye!");
                 break;
         }
